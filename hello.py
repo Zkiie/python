@@ -27,6 +27,33 @@ print classMates[0]
 # 需要说明的是 列表元素的数据类型可不同
 
 
+# 条件判断 judge
+age = 20
+if age >= 18:
+	print 'your age is',age
+	print 'adult'
+
+# if else 语句
+age = 3
+if age >= 18:
+	print 'your age is',age
+	print 'adult'
+else:
+	print 'your age is',age
+	print 'teenager'
+
+# if elif语句
+age = 3
+if age >= 18:
+	print 'your age is',age
+	print 'adult'
+elif age >= 6:
+	print 'your age is',age
+	print 'teenager'
+else:
+	print 'kid'
+
+
 
 
 
