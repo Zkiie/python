@@ -54,6 +54,57 @@ else:
 	print 'kid'
 
 
+# 循环 cycle
+names = ['Yali','Anna','Amy']
+for name in names:
+	print name
+
+
+# 1-10的整数运算
+sum = 0
+for x in [1,2,3,4,5,6,7,8,9,10]:
+	sum = sum + x
+print sum
+
+sum = 0
+for x in range(101):
+	sum = sum + x
+print sum
+
+
+# while 循环
+# 条件满足时就不断的循环，条件不满足时退出循环
+sum = 0
+n = 90
+while n > 0 :
+	sum = sum + n
+	n = n - 2
+print sum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
